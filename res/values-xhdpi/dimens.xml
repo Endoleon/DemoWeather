@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- main view title -->
+    <dimen name="main_view_title_textview_width">150dp</dimen>
+    <dimen name="main_view_title_cityname_textsize">20dp</dimen>
+    <dimen name="statusbarheight">25dp</dimen>
+        
+</resources>

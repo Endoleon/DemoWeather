@@ -34,10 +34,10 @@
             android:name="com.droi.sdk.channel_name" 
             android:value="ruoquan001" />
         
-    		
         <activity
             android:name=".ui.WeatherActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
