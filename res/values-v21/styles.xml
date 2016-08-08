@@ -1,9 +1,15 @@
 <resources>
 
-    <style name="AppBaseTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
         <item name="android:colorPrimary">@color/mytinit_color</item>
         <item name="android:colorPrimaryDark">@color/mytinit_color</item>
         <item name="android:colorAccent">@color/mytinit_color</item>
+    </style>
+    
+    <style name="Theme.MainActivity" parent="@android:style/Theme.Material.Light.NoActionBar.Overscan">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <!-- <item name="android:windowBackground">@drawable/rom_weather_guide</item> -->
     </style>
 
 </resources>
