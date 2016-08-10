@@ -72,6 +72,17 @@
             </intent-filter>
         </activity>
         
+        <!-- apk info activity -->
+        <activity 
+		    android:name="com.ruoquan.apkinfo.ApkInfoActivity"
+		    android:label="ApkInfo"
+		    android:theme="@style/ApkInfoActivityTheme"
+		    android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+        
     
     </application>
 

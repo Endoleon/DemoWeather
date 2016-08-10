@@ -11,5 +11,12 @@
         <item name="android:windowFullscreen">false</item>
         <!-- <item name="android:windowBackground">@drawable/rom_weather_guide</item> -->
     </style>
+    
+    <style name="ApkInfoActivityTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:colorPrimary">@color/mytinit_color</item>
+        <item name="android:colorPrimaryDark">@color/mytinit_color</item>
+        <item name="android:textColor">#FF000000</item>
+    </style>
 
 </resources>

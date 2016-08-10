@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Preference android:key="version_name"
+        android:title="VersionName"
+        android:summary="N/A"
+        android:enabled="false"/>
+    <Preference android:key="version_code"
+        android:title="VersionCode"
+        android:summary="N/A"
+        android:enabled="false"/>
+    <Preference android:key="channel_id"
+        android:title="ChannelID"
+        android:summary="N/A"
+        android:enabled="false"/>
+</PreferenceScreen>
