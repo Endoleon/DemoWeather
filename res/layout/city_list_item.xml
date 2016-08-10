@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/city_list_item_ll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/citymanagement_citylist_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="17dp"
+        android:background="@drawable/citymanagement_listitem_bg" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" >
+
+            <ImageView
+                android:id="@+id/city_list_item_iv_weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/icon_bg"
+                android:src="@drawable/demo_weather_icon_sun"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/city_list_item_tv_cityname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="12"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/city_list_item_text_color"
+            android:textSize="@dimen/citymanagement_citylist_cityname_textsize" />
+
+        <TextView
+            android:id="@+id/city_list_item_tv_temp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:singleLine="true"
+            android:textColor="@color/city_list_item_text_color"
+            android:textSize="@dimen/citymanagement_citylist_temp_textsize" />
+        
+        <ImageView
+        	android:id="@+id/draglist_delete"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center_vertical"
+        	android:background="@drawable/draglistview_delete_button"
+        	android:visibility="gone" />
+    </LinearLayout>
+    
+	<ImageView
+        android:id="@+id/city_list_item_iv_locationicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/citylist_item_locationicon"
+        android:visibility="gone" />
+</FrameLayout>

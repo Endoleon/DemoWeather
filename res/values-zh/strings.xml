@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">简单天气</string>
+    
+    <!-- city management activity -->
+    <string name="city_management_title">城市管理</string>
+    <string name="city_management_editmode_des">最多添加9个城市，长按可拖动、删除城市</string>
+    <string name="city_manager_locate">定位</string>
+    <string name="city_manager_edit">编辑</string>
+    <string name="city_manager_complete">完成</string>
+    <string name="city_manager_cancel">取消</string>
+    <string name="weather_na">N/A</string>
+    
+    <!-- city added activity -->
+    <string name="city_add_title">添加城市</string>
+    <string name="search_tips">搜索城市</string>
+    <string name="no_search_result">无搜索结果</string>
+    <string name="no_network">网络连接不可用</string>
+
+</resources>

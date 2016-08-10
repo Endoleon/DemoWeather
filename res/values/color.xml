@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- color pramera -->
     <color name="mytinit_color">#ff1493f5</color>
+    
+    <!-- city management actvity -->
+    <color name="city_list_item_bg_color">#E8E9Ed</color>
+    <color name="city_management_editmode_textcolor">#cccccc</color>
+    <color name="city_listitem_normal">#eeeeee</color>
+    <color name="city_listitem_pressed">#d0d0d0</color>
+    <color name="city_list_item_text_color">#666666</color>
+    
+    <!-- city added activity -->
+    <color name="city_added_tips_textcolor">#ff5a5e69</color>
+    
 </resources>

@@ -53,6 +53,25 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name=".managecity.CityManagement"
+            android:label="@string/city_management_title" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.View" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".managecity.CityAddActivity"
+            android:label="@string/city_add_title" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.View" />
+            </intent-filter>
+        </activity>
+        
     
     </application>
 

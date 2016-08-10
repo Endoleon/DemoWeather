@@ -5,5 +5,10 @@
     <dimen name="main_view_title_textview_width">150dp</dimen>
     <dimen name="main_view_title_cityname_textsize">20dp</dimen>
     <dimen name="statusbarheight">25dp</dimen>
+    
+    <!-- city management activity -->
+    <dimen name="citymanagement_citylist_height">57dp</dimen>
+    <dimen name="citymanagement_citylist_cityname_textsize">20sp</dimen>
+    <dimen name="citymanagement_citylist_temp_textsize">18sp</dimen>
         
 </resources>
