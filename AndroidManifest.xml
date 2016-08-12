@@ -82,6 +82,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
 		</activity>
+		
+        <provider 
+            android:name=".data.WeatherProvider"
+            android:authorities="com.ruoquan.provider.demoweather"
+            android:exported="true" />
         
     
     </application>
