@@ -3,6 +3,9 @@
 
     <string name="app_name">简单天气</string>
     
+    <!-- weather language -->
+    <string name="weather_language">zh-Hans</string>
+    
     <!-- city management activity -->
     <string name="city_management_title">城市管理</string>
     <string name="city_management_editmode_des">最多添加9个城市，长按可拖动、删除城市</string>
@@ -17,5 +20,6 @@
     <string name="search_tips">搜索城市</string>
     <string name="no_search_result">无搜索结果</string>
     <string name="no_network">网络连接不可用</string>
+    <string name="exist_same_city">该城市已存在，请选择其他城市</string>
 
 </resources>
