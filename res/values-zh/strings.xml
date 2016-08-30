@@ -15,6 +15,8 @@
     <string name="city_manager_cancel">取消</string>
     <string name="weather_na">N/A</string>
     <string name="no_city_to_update">没有城市可更新，请添加城市</string>
+    <string name="no_available_network">无可用网络,无法更新天气</string>
+    <string name="fail_to_update_weather">更新失败</string>
     
     <!-- city added activity -->
     <string name="city_add_title">添加城市</string>
