@@ -11,7 +11,7 @@
     <!-- define update weather service permission -->
     <permission 
         android:protectionLevel="normal" 
-        android:name="com.freeme.weather.UPDATE_WEATHER"/>
+        android:name="com.ruoquan.demoweather.permission.UPDATE_WEATHER"/>
     
     <!-- DroiBaaS SDK -->
     <uses-permission android:name="android.permission.INTERNET" />
