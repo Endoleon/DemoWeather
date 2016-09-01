@@ -23,7 +23,8 @@
         android:textSize="@dimen/main_view_title_cityname_textsize" 
         android:singleLine="true"
         android:layout_centerInParent="true"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:visibility="gone"/>
     
     <ImageButton 
         android:id="@+id/add_city_button"
