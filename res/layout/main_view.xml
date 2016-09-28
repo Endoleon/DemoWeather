@@ -6,10 +6,19 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     tools:context=".WeatherActivity"
     android:background="@drawable/weather_background_na" >
+    <ImageSwitcher 
+        android:id="@+id/main_view_imsw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ImageSwitcher>
     <com.ruoquan.demoweather.views.MainViewTitle
         android:id="@+id/main_view_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/statusbarheight"/>
+    <com.ruoquan.demoweather.views.MyViewPager
+        android:id="@+id/main_view_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </RelativeLayout>
